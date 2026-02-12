@@ -1,7 +1,7 @@
 #include <Arduino.h>
 
 void setup() {
-    Serial.begin(38400); //PC SERIAL MONITO
+    Serial.begin(38400); //PC SERIAL MONITOR
     Serial1.begin(38400); //HC-05 AT MODE
 
 // write your initialization code here
