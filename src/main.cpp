@@ -12,7 +12,7 @@ void loop() {
     if (Serial.available()) {
         Serial1.write(Serial.read());
     }
-    //BLUETOOTH TO PC
+    //BLUETOOTH TTOO PC
     if (Serial1.available()) {
         Serial.write(Serial1.read());
     }
